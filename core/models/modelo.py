@@ -7,7 +7,7 @@ class Modelo(models.Model):
     
     def __str__ (self):
         if self.marca:
-            return f'{self.id} {self.nome.upper()} {self.marca.upper()}'
+            return f'{self.id} {self.marca.upper()} {self.nome.upper()} '
         else:
             return f'{self.id} {self.nome.upper()}'
     
